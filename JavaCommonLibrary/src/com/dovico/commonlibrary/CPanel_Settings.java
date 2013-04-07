@@ -22,7 +22,7 @@ public class CPanel_Settings extends JPanel {
 	private String m_sEmployeeFirstName = "";
 	private String m_sEmployeeLastName = "";
 	
-	private String m_sApiVersionTargeted = "";
+	private String m_sApiVersionTargeted = "2";
 	
 	private int m_iAccessTokenLine1Top = 84; // For apps that need to adjust where the Access Token label text is located call: adjustAccessTokenLabelVerticalPositions
 	private JLabel m_lblAccessTokenLine1 = null;

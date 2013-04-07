@@ -9,7 +9,7 @@ public class APIRequestResult {
 	// Member variables		
 	private String m_sConsumerSecret = "";
 	private String m_sDataAccessToken = "";
-	private String m_sApiVersionTargeted = "";
+	private String m_sApiVersionTargeted = "2";
 	private String m_sRequestURI = "";
 	private String m_sRequestHttpMethod = "GET"; // Most requests will be GETs so this is the default so that the caller doesn't have to explicitly set it every time  
 	private String m_sRequestPostPutXmlData = "";		
