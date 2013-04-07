@@ -10,10 +10,12 @@ Changes
 
 * Added build script for Gradle to produce JAR file
 
-Usage:
 
+**Usage:**
 
+```
    gradle build
+```
 
 Go to ./build/libs to get your JavaCommonLibrary.jar file
 
